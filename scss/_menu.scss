@@ -11,10 +11,10 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
-  
+
   // Rotate Into X With Menu Lines
   &.close {
     transform: rotate(180deg);
@@ -90,7 +90,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/pho2.jpg');
+      background: url('../img/portrait.jpg');
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
